@@ -1,2 +1,92 @@
-##CodeBook
-*	ColNumber	ColName	Definition*	1	activity_id	Id of the activity performed, its range is from 1 to 6*	2	tBodyAcc.mean...X	mean value*	3	tBodyAcc.mean...Y	mean value*	4	tBodyAcc.mean...Z	mean value*	5	tBodyAcc.std...X	standard deviation*	6	tBodyAcc.std...Y	standard deviation*	7	tBodyAcc.std...Z	standard deviation*	8	tGravityAcc.mean...X	mean value*	9	tGravityAcc.mean...Y	mean value*	10	tGravityAcc.mean...Z	mean value*	11	tGravityAcc.std...X	standard deviation*	12	tGravityAcc.std...Y	standard deviation*	13	tGravityAcc.std...Z	standard deviation*	14	tBodyAccJerk.mean...X	mean value*	15	tBodyAccJerk.mean...Y	mean value*	16	tBodyAccJerk.mean...Z	mean value*	17	tBodyAccJerk.std...X	standard deviation*	18	tBodyAccJerk.std...Y	standard deviation*	19	tBodyAccJerk.std...Z	standard deviation*	20	tBodyGyro.mean...X	mean value*	21	tBodyGyro.mean...Y	mean value*	22	tBodyGyro.mean...Z	mean value*	23	tBodyGyro.std...X	standard deviation*	24	tBodyGyro.std...Y	standard deviation*	25	tBodyGyro.std...Z	standard deviation*	26	tBodyGyroJerk.mean...X	mean value*	27	tBodyGyroJerk.mean...Y	mean value*	28	tBodyGyroJerk.mean...Z	standard deviation*	29	tBodyGyroJerk.std...X	standard deviation*	30	tBodyGyroJerk.std...Y	standard deviation*	31	tBodyGyroJerk.std...Z	standard deviation*	32	tBodyAccMag.mean..	mean value*	33	tBodyAccMag.std..	standard deviation*	34	tGravityAccMag.mean..	mean value*	35	tGravityAccMag.std..	standard deviation*	36	tBodyAccJerkMag.mean..	mean value*	37	tBodyAccJerkMag.std..	standard deviation*	38	tBodyGyroMag.mean..	mean value*	39	tBodyGyroMag.std..	standard deviation*	40	tBodyGyroJerkMag.mean..	mean value*	41	tBodyGyroJerkMag.std..	standard deviation*	42	fBodyAcc.mean...X	mean value*	43	fBodyAcc.mean...Y	mean value*	44	fBodyAcc.mean...Z	mean value*	45	fBodyAcc.std...X	standard deviation*	46	fBodyAcc.std...Y	standard deviation*	47	fBodyAcc.std...Z	standard deviation*	48	fBodyAcc.meanFreq...X	standard deviation*	49	fBodyAcc.meanFreq...Y	standard deviation*	50	fBodyAcc.meanFreq...Z	standard deviation*	51	fBodyAccJerk.mean...X	mean value*	52	fBodyAccJerk.mean...Y	mean value*	53	fBodyAccJerk.mean...Z	mean value*	54	fBodyAccJerk.std...X	standard deviation*	55	fBodyAccJerk.std...Y	standard deviation*	56	fBodyAccJerk.std...Z	standard deviation*	57	fBodyAccJerk.meanFreq...X	mean value*	58	fBodyAccJerk.meanFreq...Y	mean value*	59	fBodyAccJerk.meanFreq...Z	mean value*	60	fBodyGyro.mean...X	mean value*	61	fBodyGyro.mean...Y	mean value*	62	fBodyGyro.mean...Z	mean value*	63	fBodyGyro.std...X	standard deviation*	64	fBodyGyro.std...Y	standard deviation*	65	fBodyGyro.std...Z	standard deviation*	66	fBodyGyro.meanFreq...X	mean value*	67	fBodyGyro.meanFreq...Y	mean value*	68	fBodyGyro.meanFreq...Z	mean value*	69	fBodyAccMag.mean..	mean value*	70	fBodyAccMag.std..	standard deviation*	71	fBodyAccMag.meanFreq..	mean value*	72	fBodyBodyAccJerkMag.mean..	mean value*	73	fBodyBodyAccJerkMag.std..	standard deviation*	74	fBodyBodyAccJerkMag.meanFreq..	mean value*	75	fBodyBodyGyroMag.mean..	mean value*	76	fBodyBodyGyroMag.std..	standard deviation*	77	fBodyBodyGyroMag.meanFreq..	mean value*	78	fBodyBodyGyroJerkMag.mean..	mean value*	79	fBodyBodyGyroJerkMag.std..	standard deviation*	80	fBodyBodyGyroJerkMag.meanFreq..	mean value*	81	angle.tBodyAccMean.gravity.	mean value*	82	angle.tBodyAccJerkMean..gravityMean.	mean value*	83	angle.tBodyGyroMean.gravityMean.	mean value*	84	angle.tBodyGyroJerkMean.gravityMean.	mean value*	85	angle.X.gravityMean.	mean value*	86	angle.Y.gravityMean.	mean value*	87	angle.Z.gravityMean.	mean value*	88	subject_tested	Number identifies the subject who performed the activity for each window sample. Its range is from 1 to 30*	89	activity	Name of the activity performed
+| ColNumber | ColName                              | Definition                                                                                                 |
+|-----------|--------------------------------------|------------------------------------------------------------------------------------------------------------|
+| 1         | activity_id                          | Id of the activity performed, its range is from 1 to 6                                                     |
+| 2         | tBodyAcc.mean...X                    | mean value                                                                                                 |
+| 3         | tBodyAcc.mean...Y                    | mean value                                                                                                 |
+| 4         | tBodyAcc.mean...Z                    | mean value                                                                                                 |
+| 5         | tBodyAcc.std...X                     | standard deviation                                                                                         |
+| 6         | tBodyAcc.std...Y                     | standard deviation                                                                                         |
+| 7         | tBodyAcc.std...Z                     | standard deviation                                                                                         |
+| 8         | tGravityAcc.mean...X                 | mean value                                                                                                 |
+| 9         | tGravityAcc.mean...Y                 | mean value                                                                                                 |
+| 10        | tGravityAcc.mean...Z                 | mean value                                                                                                 |
+| 11        | tGravityAcc.std...X                  | standard deviation                                                                                         |
+| 12        | tGravityAcc.std...Y                  | standard deviation                                                                                         |
+| 13        | tGravityAcc.std...Z                  | standard deviation                                                                                         |
+| 14        | tBodyAccJerk.mean...X                | mean value                                                                                                 |
+| 15        | tBodyAccJerk.mean...Y                | mean value                                                                                                 |
+| 16        | tBodyAccJerk.mean...Z                | mean value                                                                                                 |
+| 17        | tBodyAccJerk.std...X                 | standard deviation                                                                                         |
+| 18        | tBodyAccJerk.std...Y                 | standard deviation                                                                                         |
+| 19        | tBodyAccJerk.std...Z                 | standard deviation                                                                                         |
+| 20        | tBodyGyro.mean...X                   | mean value                                                                                                 |
+| 21        | tBodyGyro.mean...Y                   | mean value                                                                                                 |
+|           | tBodyGyro.mean...Z                   | mean value                                                                                                 |
+| 22        | tBodyGyro.std...X                    | standard deviation                                                                                         |
+| 23        | tBodyGyro.std...Y                    | standard deviation                                                                                         |
+| 24        | tBodyGyro.std...Z                    | standard deviation                                                                                         |
+| 25        | tBodyGyroJerk.mean...X               | mean value                                                                                                 |
+| 26        | tBodyGyroJerk.mean...Y               | mean value                                                                                                 |
+| 27        | tBodyGyroJerk.mean...Z               | standard deviation                                                                                         |
+| 28        | tBodyGyroJerk.std...X                | standard deviation                                                                                         |
+| 29        | tBodyGyroJerk.std...Y                | standard deviation                                                                                         |
+| 30        | tBodyGyroJerk.std...Z                | standard deviation                                                                                         |
+| 31        | tBodyAccMag.mean..                   | mean value                                                                                                 |
+| 32        | tBodyAccMag.std..                    | standard deviation                                                                                         |
+| 33        | tGravityAccMag.mean..                | mean value                                                                                                 |
+| 34        | tGravityAccMag.std..                 | standard deviation                                                                                         |
+| 35        | tBodyAccJerkMag.mean..               | mean value                                                                                                 |
+| 36        | tBodyAccJerkMag.std..                | standard deviation                                                                                         |
+| 37        | tBodyGyroMag.mean..                  | mean value                                                                                                 |
+| 38        | tBodyGyroMag.std..                   | standard deviation                                                                                         |
+| 39        | tBodyGyroJerkMag.mean..              | mean value                                                                                                 |
+| 40        | tBodyGyroJerkMag.std..               | standard deviation                                                                                         |
+| 41        | fBodyAcc.mean...X                    | mean value                                                                                                 |
+| 42        | fBodyAcc.mean...Y                    | mean value                                                                                                 |
+| 43        | fBodyAcc.mean...Z                    | mean value                                                                                                 |
+| 44        | fBodyAcc.std...X                     | standard deviation                                                                                         |
+| 45        | fBodyAcc.std...Y                     | standard deviation                                                                                         |
+| 46        | fBodyAcc.std...Z                     | standard deviation                                                                                         |
+| 47        | fBodyAcc.meanFreq...X                | standard deviation                                                                                         |
+| 48        | fBodyAcc.meanFreq...Y                | standard deviation                                                                                         |
+| 49        | fBodyAcc.meanFreq...Z                | standard deviation                                                                                         |
+| 50        | fBodyAccJerk.mean...X                | mean value                                                                                                 |
+| 51        | fBodyAccJerk.mean...Y                | mean value                                                                                                 |
+| 52        | fBodyAccJerk.mean...Z                | mean value                                                                                                 |
+| 53        | fBodyAccJerk.std...X                 | standard deviation                                                                                         |
+| 54        | fBodyAccJerk.std...Y                 | standard deviation                                                                                         |
+| 55        | fBodyAccJerk.std...Z                 | standard deviation                                                                                         |
+| 56        | fBodyAccJerk.meanFreq...X            | mean value                                                                                                 |
+| 57        | fBodyAccJerk.meanFreq...Y            | mean value                                                                                                 |
+| 58        | fBodyAccJerk.meanFreq...Z            | mean value                                                                                                 |
+| 59        | fBodyGyro.mean...X                   | mean value                                                                                                 |
+| 60        | fBodyGyro.mean...Y                   | mean value                                                                                                 |
+| 61        | fBodyGyro.mean...Z                   | mean value                                                                                                 |
+| 62        | fBodyGyro.std...X                    | standard deviation                                                                                         |
+| 63        | fBodyGyro.std...Y                    | standard deviation                                                                                         |
+| 64        | fBodyGyro.std...Z                    | standard deviation                                                                                         |
+| 65        | fBodyGyro.meanFreq...X               | mean value                                                                                                 |
+| 66        | fBodyGyro.meanFreq...Y               | mean value                                                                                                 |
+| 67        | fBodyGyro.meanFreq...Z               | mean value                                                                                                 |
+| 68        | fBodyAccMag.mean..                   | mean value                                                                                                 |
+| 69        | fBodyAccMag.std..                    | standard deviation                                                                                         |
+| 70        | fBodyAccMag.meanFreq..               | mean value                                                                                                 |
+| 71        | fBodyBodyAccJerkMag.mean..           | mean value                                                                                                 |
+| 72        | fBodyBodyAccJerkMag.std..            | standard deviation                                                                                         |
+| 73        | fBodyBodyAccJerkMag.meanFreq..       | mean value                                                                                                 |
+| 74        | fBodyBodyGyroMag.mean..              | mean value                                                                                                 |
+| 75        | fBodyBodyGyroMag.std..               | standard deviation                                                                                         |
+| 76        | fBodyBodyGyroMag.meanFreq..          | mean value                                                                                                 |
+| 77        | fBodyBodyGyroJerkMag.mean..          | mean value                                                                                                 |
+| 78        | fBodyBodyGyroJerkMag.std..           | standard deviation                                                                                         |
+| 79        | fBodyBodyGyroJerkMag.meanFreq..      | mean value                                                                                                 |
+| 80        | angle.tBodyAccMean.gravity.          | mean value                                                                                                 |
+| 81        | angle.tBodyAccJerkMean..gravityMean. | mean value                                                                                                 |
+| 82        | angle.tBodyGyroMean.gravityMean.     | mean value                                                                                                 |
+| 83        | angle.tBodyGyroJerkMean.gravityMean. | mean value                                                                                                 |
+| 84        | angle.X.gravityMean.                 | mean value                                                                                                 |
+| 85        | angle.Y.gravityMean.                 | mean value                                                                                                 |
+| 86        | angle.Z.gravityMean.                 | mean value                                                                                                 |
+| 87        | subject_tested                       | Number identifies the subject who performed the activity for each window sample. Its range is from 1 to 30 |
+| 88        | activity                             | Name of the activity performed                                                                             |
+| 89        |                                      |                                                                                                            |
