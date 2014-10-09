@@ -1,4 +1,4 @@
-setwd("/Users/leokaplun/Desktop/Getting and Cleaning Data/Assignment")
+setwd("C:\\Users\\leo.kaplun\\Desktop\\Getting and Cleaning Data\\Assignment")
 
 
 
@@ -8,16 +8,16 @@ setwd("/Users/leokaplun/Desktop/Getting and Cleaning Data/Assignment")
 #TEST DATA
 
 #Load test data
-x_test <- read.table("./UCI HAR Dataset/test/X_test.txt", header = F)
+x_test <- read.table(".\\UCI HAR Dataset\\test\\X_test.txt", header = F)
 #Load test data activity id
-y_test <- read.table("./UCI HAR Dataset/test/y_test.txt", header = F, col.names="activity_id")
+y_test <- read.table(".\\UCI HAR Dataset\\test\\y_test.txt", header = F, col.names="activity_id")
 
 #Load column headers for the test data set
-features <- read.table("./UCI HAR Dataset/features.txt", header = F)
+features <- read.table(".\\UCI HAR Dataset\\features.txt", header = F)
 #Load activity labels
-activity_labels <- read.table("./UCI HAR Dataset/activity_labels.txt", header = F,col.names = c("id","activity"))
+activity_labels <- read.table(".\\UCI HAR Dataset\\activity_labels.txt", header = F,col.names = c("id","activity"))
 #Load subject numbers
-subject_test <- read.table("./UCI HAR Dataset/test/subject_test.txt", header = F,col.names = "subject_tested")
+subject_test <- read.table(".\\UCI HAR Dataset\\test\\subject_test.txt", header = F,col.names = "subject_tested")
 
 
 #Adding column names to the test data set
@@ -79,8 +79,8 @@ library(plyr)
 
 tidy_data <- ddply(mean_sd_subset,c("activity","subject_tested"), FUN = mean)
 
-
-#SOME MINIR CHANGE FOR GIT TESTINS
+#writing the tidy_data to table
+write.table(tidy_data, file = "tidy_data.txt", col.names = F)
 
 
 
