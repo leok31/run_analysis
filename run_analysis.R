@@ -1,7 +1,3 @@
-setwd("C:\\Users\\leo.kaplun\\Desktop\\Getting and Cleaning Data\\Assignment")
-
-
-
 #PART 1 - merging train and test data into one data set
 #       - apply descriptive activity names
 #       - label the data
