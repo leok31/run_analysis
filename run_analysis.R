@@ -3,6 +3,8 @@ setwd("C:\\Users\\leo.kaplun\\Desktop\\Getting and Cleaning Data\\Assignment")
 
 
 #PART 1 - merging train and test data into one data set
+#       - apply descriptive activity names
+#       - label the data
 ########################################################################
 ########################################################################
 #TEST DATA
@@ -56,20 +58,22 @@ all_data <- rbind(test_data,train_data)
 mean_sd_index <- grep("[Mm]ean|[Ss]td|subject_tested|activity",names(all_data))
 mean_sd_subset <- all_data[,mean_sd_index]
 
-
-
-#PART 3 - use descriptive activity names
+#PART 3 - give descriptive activity names
 ########################################################################
 ########################################################################
+# already done in part 1
 
-#already done in part 1
 
-#PART 4 - label the data
+#PART 4 - change column names to be more descriptive
 ########################################################################
 ########################################################################
-
-#already done in part 1
-
+#Removing extra dots from names 
+#Remove 3 dots
+names(mean_sd_subset) <- gsub("...", ".",names(mean_sd_subset), fixed = T)
+#Remove 2 dots
+names(mean_sd_subset) <- gsub("..", ".",names(mean_sd_subset), fixed = T)
+#Remove do at the end of column name
+names(mean_sd_subset) <- gsub("\\.$", "",names(mean_sd_subset))
 
 #PART 5 - independent tidy data set
 ########################################################################
